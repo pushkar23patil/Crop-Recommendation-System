@@ -18,7 +18,7 @@ def predict():
     try:
         data = request.get_json()
         N = float(data['Nitrogen'])
-        P = float(data['Phosporus'])
+        P = float(data['Phosphorous'])
         K = float(data['Potassium'])
         temp = float(data['Temperature'])
         soil_moisture = float(data['soil_moisture'])
